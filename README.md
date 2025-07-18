@@ -210,6 +210,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions, please file an issue on the GitHub repository.
 
+## Future Roadmap
+
+The following features are planned for future releases:
+
+### Traffic Balancing and Bandwidth Management
+- **Multi-stream Bandwidth Balancing**: Implement intelligent traffic scheduling algorithms when converting multiple TCP streams to a single serial stream, preventing any single stream from consuming all available bandwidth
+- **Fair Queue Scheduling**: Ensure all TCP connections receive fair transmission opportunities, avoiding TCP timeouts and retransmissions caused by bandwidth competition
+- **Priority Queuing**: Support setting priorities for different TCP streams, allowing critical connections to receive higher bandwidth allocation
+
+### Connection Management Optimization
+- **Improved TCP Stream Closure Design**: Optimize connection closure procedures to ensure all buffered data is properly transmitted before closing
+- **Graceful Shutdown Mechanism**: Implement more comprehensive connection closure negotiation to reduce data loss risks
+- **Connection State Monitoring**: Enhanced connection state tracking with detailed connection lifecycle management
+
+### Performance Enhancements
+- **Adaptive Buffering**: Dynamically adjust buffer sizes based on network conditions
+- **Compression Support**: Optional data compression functionality to improve serial port bandwidth utilization
+
 ## Changelog
 
 ### Version 2.2.0
