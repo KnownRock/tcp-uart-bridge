@@ -170,6 +170,25 @@ Logs can be output to console and/or file based on configuration.
 - Serial port hardware interface
 - Compatible UART devices on both ends
 
+### Recommended USB-to-Serial Module
+
+For optimal performance and compatibility, we recommend using the **CH9111 USB-to-Serial module**:
+
+- **Product Link**: https://item.taobao.com/item.htm?id=917091076150
+- **Driver Download**: https://www.wch.cn/download/file?id=315
+
+This module has been extensively tested and provides the best performance for high-speed data transmission. The CH9111 driver installation is required for proper functionality.
+
+### 3D Printable Enclosure
+
+A custom 3D printable enclosure is provided for housing the USB-to-Serial module:
+
+- **3D Model File**: `shell.step` (STEP format)
+- **Format**: ISO-10303-21 STEP file compatible with most CAD software
+- **Description**: Protective enclosure designed specifically for the recommended CH9111 module
+
+The enclosure provides physical protection and professional appearance for your TCP-UART bridge setup. You can use any 3D printer with standard PETG or ABS filament to print the case.
+
 ## Dependencies
 
 - `serialport`: Serial port communication
