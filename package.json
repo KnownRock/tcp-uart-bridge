@@ -1,0 +1,20 @@
+{
+  "name": "tcp-uart-bridge",
+  "version": "2.2.0",
+  "description": "TCP-UART bridge with multi-port mapping through serial port communication",
+  "main": "tcp-server.js",
+  "scripts": {
+    "server": "node tcp-server.js",
+    "client": "node tcp-client.js"
+  },
+  "keywords": ["tcp", "serial", "bridge", "multi-port", "tunneling"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

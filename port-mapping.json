@@ -1,0 +1,34 @@
+{
+  "portMappings": [
+    {
+      "localPort": 8080,
+      "remoteHost": "localhost",
+      "remotePort": 22,
+      "description": "SSH转发到本地22端口"
+    },
+    {
+      "localPort": 8081,
+      "remoteHost": "localhost",
+      "remotePort": 80,
+      "description": "HTTP转发到本地80端口"
+    },
+    {
+      "localPort": 8082,
+      "remoteHost": "localhost",
+      "remotePort": 443,
+      "description": "HTTPS转发到本地443端口"
+    },
+    {
+      "localPort": 8083,
+      "remoteHost": "localhost",
+      "remotePort": 3389,
+      "description": "RDP转发到远程桌面"
+    },
+    {
+      "localPort": 8084,
+      "remoteHost": "localhost",
+      "remotePort": 3306,
+      "description": "MySQL转发到数据库服务器"
+    }
+  ]
+}
